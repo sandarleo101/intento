@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeeee;
+    position: relative;
+    min-height: 100vh; 
+}
+
+.left-info {
+    border: 3px solid black;
+    width: 255px;
+    height: 94vh;
+}
+
+.descrip-info {
+    border: 3px solid black;
+    width: calc(100vw - 255px);
+    height: 600px;
+}
+
+.music-camb {
+    background-color: #647687;
+    width: 100%;
+    height: 100px;
+    display: block;
+    position: absolute;
+    bottom: 0; 
+}
+.footer{
+    border: 3px solid black;
+    width: 100%;
+    height: 280px; 
+    position: fixed;
+    bottom: 100px;
+    left: 254px; 
+}
+
+.conteiner-dad {
+    display: flex;
+}
